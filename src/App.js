@@ -28,6 +28,7 @@ const headerStyle = {
   lineHeight: '64px',
   height: 'fit-content',
   // backgroundColor: '#4096ff',
+  top: 0
 };
 const contentStyle = {
   textAlign: 'center',
@@ -62,11 +63,11 @@ function App() {
 
         <Layout style={layoutStyle}>
           <Header style={headerStyle}><HeaderBar /></Header>
-          <Layout>
-            <Sider>
+          <Layout >
+            <Sider >
               <Navigation />
             </Sider>
-            <Content>
+            <Content style={{ overflow: "auto" }}>
               <Routes>
                 <Route path="/" element={ <HomePage /> } />
                 <Route path="/image-detection" element={ <ImageDetectionPage /> }/>
@@ -75,7 +76,7 @@ function App() {
               </Routes>
             </Content>
           </Layout>
-          <Footer >Footer</Footer>
+          
         </Layout>
       </Flex>
     </BrowserRouter>     
