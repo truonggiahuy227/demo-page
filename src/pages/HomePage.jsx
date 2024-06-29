@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import pattern from "../assets/pattern4.png";
+import object_detection from "../assets/object-detection.png";
 
 function HomePage() {
   return (
@@ -54,35 +55,33 @@ function HomePage() {
             </button>
           </div>
         </div>
+      </section>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 about-img">
-              <img src="img/object-detection.png" alt="" />
-            </div>
+      <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src={require("../assets/object-detection.png" )}alt="" />
+          </div>
 
-            <div class="col-lg-6 content">
-              <h2>Pros</h2>
-              <h3>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </h3>
+          <div class="col-lg-6 content">
+            <h2>Pros</h2>
+            <h3>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </h3>
 
-              <ul>
-                <li>
-                  <i class="ion-android-checkmark-circle"></i> Fast
-                </li>
-                <li>
-                  <i class="ion-android-checkmark-circle"></i> High precision
-                </li>
-                <li>
-                  <i class="ion-android-checkmark-circle"></i> Easy to do
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Fast</li>
+              <li>
+                <i class="ion-android-checkmark-circle"></i> High precision
+              </li>
+              <li><i class="ion-android-checkmark-circle"></i> Easy to do</li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
   );
 }
