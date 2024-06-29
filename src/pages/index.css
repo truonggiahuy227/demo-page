@@ -1,0 +1,68 @@
+.container-app {
+    max-width: 400px;
+    margin: 0 150px;
+    font-family: monospace;
+  }
+  h1 {
+    margin: 20px 0;
+  }
+  .container-image-choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 3px dashed #999;
+    background-color: white;
+  }
+  
+  .wrap-image-true {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-close {
+    position: absolute;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .selected-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .file-name-image {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 6px 0;
+  }
+  
+  .wrap-image-false {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-upload {
+    color: rgb(62, 156, 250);
+  }
+  .file-name {
+    font-size: 18px;
+    color: #222;
+  }
+.btn-detect {
+    margin-top: 20px;
+
+}
