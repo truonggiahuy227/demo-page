@@ -1,8 +1,12 @@
 import React from 'react';
 import './index.css'
+import pattern from '../assets/pattern4.png';
+
 
 function HomePage() {
     return (
+      <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+
         <section id="intro">
         <div class="intro-content">
         <h2>Object <span>Detection</span><br /></h2>
@@ -57,7 +61,7 @@ function HomePage() {
         </div>
       </div>
     </section>
-      
+    </div>
     );
 }
 
