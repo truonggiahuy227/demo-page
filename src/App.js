@@ -21,7 +21,7 @@ const { createRoot } = ReactDOM;
 const { Header, Footer, Sider, Content } = Layout;
 
 const headerStyle = {
-  textAlign: 'center',
+  //textAlign: 'center',
   // color: '#fff',
   height: 64,
   paddingInline: 48,
@@ -69,7 +69,7 @@ function App() {
             </Sider>
             <Content style={{ overflow: "auto" }}>
               <Routes>
-                <Route path="/" element={ <HomePage /> } />
+                <Route path="/" element={ <ImageDetectionPage /> } />
                 <Route path="/image-detection" element={ <ImageDetectionPage /> }/>
                 <Route path="/image-upload" element={ <UploadingImagePage /> } />
                 <Route path="/statistic" element={ <StatisticPage /> } />

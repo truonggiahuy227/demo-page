@@ -51,7 +51,7 @@ function ImageDetectionPage() {
     }
 
     return (
-        <div style={{ width: '100%' }}>
+        <div style={{ width: '100%', backgroundColor: 'green' }}>
             <div className="container-app">
             <h1 className="title">Image Input</h1>
             <div className="container-image-choice">

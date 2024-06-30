@@ -57,8 +57,8 @@ function Navigation() {
   return (
     <div style={{ height: '100vh' }}>
       <Menu
-        defaultSelectedKeys={['1']}
-        defaultOpenKeys={['sub1']}
+        defaultSelectedKeys={['0']}
+        defaultOpenKeys={['0']}
         mode="inline"
         theme="dark"
         inlineCollapsed={collapsed}

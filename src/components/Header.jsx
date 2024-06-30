@@ -6,9 +6,12 @@ function HeaderBar() {
       
     <div id="logo" style={{ height: "fit-content" }}>
         <h1>
-        <a>UET <span style={{ color: '#0c2e8a',
-    display: 'inline-block'}}>Squad</span></a>
+        <a> <span style={{ color: '#FCFFE0',
+    display: 'inline-block'}}>UET Squad</span></a>
         </h1>
+        <div>
+            
+        </div>
     </div>
 
     );
