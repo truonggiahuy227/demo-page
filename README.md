@@ -18,6 +18,7 @@ To build the source code, run `yarn build`. Out put will be stored in build dire
 
 # demo-page
 
+URL: https://hackhcmc-fe.hyugaa.click/
 <img width="1452" alt="Screenshot 2024-06-30 at 11 06 39" src="https://github.com/truonggiahuy227/demo-page/assets/56349289/4f16d5a6-42eb-45a8-816b-a433570bf44f">
 
 ### Additional information
